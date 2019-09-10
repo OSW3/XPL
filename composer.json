@@ -9,7 +9,7 @@
             "email": "contact@osw3.net"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "files": [
