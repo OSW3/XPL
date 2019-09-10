@@ -1,0 +1,19 @@
+{
+    "name": "osw3/xpl",
+    "description": "Xtended PHP Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OSW3",
+            "email": "contact@osw3.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "xpl.php"
+        ]
+    }
+}
