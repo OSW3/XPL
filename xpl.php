@@ -6,7 +6,9 @@ $library = scandir(XPL_LIBRARY);
 
 foreach ($library as $feature) 
 {
-    if (preg_match("/\.php$/", $feature)) 
+    $file = XPL_LIBRARY.$feature."/".$feature.".php";
+
+    if (file_exists($file))
     {
         require_once XPL_LIBRARY.$feature."/".$feature.".php";
     }
