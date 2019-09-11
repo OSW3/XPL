@@ -44,78 +44,93 @@ fileinfo("./resources/unicorn.jpg", [Fileinfo::INFO_MIMETYPE, Fileinfo::CONTENT_
 
 ## Parameters options
 
+### General Info
 
-- **Fileinfo::INFO_ABSPATH**  
-Relative Path
+```php
+Fileinfo::INFO_ABSPATH  
+// Relative Path
 
-- **Fileinfo::INFO_RELPATH**  
-Absoulte Path
+Fileinfo::INFO_RELPATH  
+// Absoulte Path
 
-- **Fileinfo::INFO_BASENAME**  
-File base name
+Fileinfo::INFO_BASENAME  
+// File base name
 
-- **Fileinfo::INFO_FILENAME**  
-File name
+Fileinfo::INFO_FILENAME  
+// File name
 
-- **Fileinfo::INFO_EXTENSION**  
-File extension
+Fileinfo::INFO_EXTENSION  
+// File extension
 
-- **Fileinfo::INFO_MIMETYPE**  
-Data mimetype
+Fileinfo::INFO_MIMETYPE  
+// Data mimetype
 
-- **Fileinfo::INFO_MIMETYPE_EXTENSION**  
-Recommended from mimetype
+Fileinfo::INFO_MIMETYPE_EXTENSION  
+// Recommended from mimetype
 
-- **Fileinfo::INFO_FILETYPE**  
-File / Media type
+Fileinfo::INFO_FILETYPE  
+// File / Media type
 
-- **Fileinfo::INFO_SIZE**  
-File size
+Fileinfo::INFO_SIZE  
+// File size
 
-- **Fileinfo::INFO_DESCRIPTION**  
-File description
+Fileinfo::INFO_DESCRIPTION  
+// File description
+```
 
-- **Fileinfo::CONTENT_HEADER**  
-File Header
+### File Content
 
-- **Fileinfo::CONTENT_DATA** 
-File content 
+```php
+Fileinfo::CONTENT_HEADER  
+// File Header
 
-- **Fileinfo::CONTENT_BASE64**  
-BASE64 of content
+Fileinfo::CONTENT_DAT* 
+// File content 
 
-- **Fileinfo::CONTENT_DATA64**  
-BASE64 of content with prefix (ready to use in img src attribut)
+Fileinfo::CONTENT_BASE64  
+// BASE64 of content
 
-- **Fileinfo::CONTENT_MD5**  
-MD5 of content
+Fileinfo::CONTENT_DATA64  
+// BASE64 of content with prefix (ready to use in img src attribut)
 
-- **Fileinfo::CONTENT_SHA1**  
-SHA1 of content
+Fileinfo::CONTENT_MD5  
+// MD5 of content
 
-- **Fileinfo::CONTENT_ROWS**  
-Rows of content
+Fileinfo::CONTENT_SHA1  
+// SHA1 of content
 
-- **Fileinfo::IMAGE_THUMBNAIL**  
-Image Thumbnail (if is available)
+Fileinfo::CONTENT_ROWS  
+// Rows of content
+```
 
-- **Fileinfo::IMAGE_WIDTH**  
-Image Width
+### Image Info
 
-- **Fileinfo::IMAGE_HEIGHT**  
-Image Height
+```php
+Fileinfo::IMAGE_THUMBNAIL  
+// Image Thumbnail (if is available)
 
-- **Fileinfo::IMAGE_ORIENTATION**  
-Image orientation
+Fileinfo::IMAGE_WIDTH  
+// Image Width
 
-- **Fileinfo::IMAGE_BITS**  
-Bits
+Fileinfo::IMAGE_HEIGHT  
+// Image Height
 
-- **Fileinfo::IMAGE_CHANNELS**  
-Channels
+Fileinfo::IMAGE_ORIENTATION  
+// Image orientation
 
-- **Fileinfo::IMAGE_EXIF**  
-Image EXIF
+Fileinfo::IMAGE_BITS  
+// Bits
 
-- **Fileinfo::AUDIO_ID3TAGS**  
-File ID3 Tags
+Fileinfo::IMAGE_CHANNELS  
+// Channels
+
+Fileinfo::IMAGE_EXIF  
+// Image EXIF
+```
+
+### Audio Info
+
+```php
+Fileinfo::AUDIO_ID3TAGS  
+// File ID3 Tags
+```
