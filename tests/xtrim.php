@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$string = "Bananas, Apples, Coconuts";
+$string = "Bananas,    Apples     ,    Coconuts";
 
 ?>
 

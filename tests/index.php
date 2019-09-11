@@ -24,6 +24,18 @@ foreach ($funct_scan as $funct_file)
     }
 }
 
+foreach ($tests_scan as $test_file) 
+{
+    if (preg_match("/\.php/", $test_file))
+    {
+        $test_name = substr($test_file, 0, -4);
+
+        if (isset($tests[$test_name]))
+        {
+            $tests[$test_name]['test'] = $test_file;
+        }
+    }
+}
 ?>
 
 <h1>XPL Functions Tests</h1>
@@ -32,8 +44,12 @@ foreach ($funct_scan as $funct_file)
 <?php foreach ($tests as $key => $files): ?>
     <li>
         <strong><?= $key ?></strong>
-        <a href="<?= $key ?>.php">test</a>
+
+        <?php if ($files['test']): ?>
+            <a href="<?= $key ?>.php">test</a>
+        <?php else: ?>
+            <i>This function have no test.</i>
+        <?php endif; ?>
     </li>
 <?php endforeach; ?>
 </ul>
-
