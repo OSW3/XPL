@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "68c8b861f0383464c714e29834cddf6b",
+    "packages": [
+        {
+            "name": "osw3/fileinfo",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OSW3/Fileinfo.git",
+                "reference": "db6dd4dd89eac76f3f2f58ca55b0537787ecbd4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OSW3/Fileinfo/zipball/db6dd4dd89eac76f3f2f58ca55b0537787ecbd4d",
+                "reference": "db6dd4dd89eac76f3f2f58ca55b0537787ecbd4d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "OSW3": "src/"
+                },
+                "psr-4": {
+                    "OSW3\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "OSW3",
+                    "email": "contact@osw3.net"
+                }
+            ],
+            "description": "Analyse and Extract file info",
+            "time": "2019-09-11T19:59:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "osw3/fileinfo": "^1.0"
+    },
     "autoload": {
         "files": [
             "src/functions.php"

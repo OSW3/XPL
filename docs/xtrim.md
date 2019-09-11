@@ -11,6 +11,7 @@ Since : 1.0.0
 xtrim(string $delimiter, string $string[, int $limit = PHP_INT_MAX]): array
 ```
 
+
 ## Parameters
 
 - **delimiter**  
