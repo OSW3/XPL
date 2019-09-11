@@ -3,7 +3,7 @@
 Retrieve some info about a file.
 
 Version : 1.0.0  
-Since : 1.2.0  
+Since : 1.1.0  
 
 ---
 

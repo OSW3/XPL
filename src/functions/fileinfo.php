@@ -8,7 +8,7 @@
  * fileinfo(string $file [, string|array $options = []])
  * 
  * @version 1.0.0
- * @since 1.2.0
+ * @since 1.1.0
  * 
  * @param string $file Adresse of fila you want to parse
  * @param string $options Options you want to retrive
