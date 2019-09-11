@@ -13,7 +13,10 @@
     "require": {},
     "autoload": {
         "files": [
-            "xpl.php"
-        ]
+            "src/functions.php"
+        ],
+        "psr-4" : {
+            "XPL\\" : "src/classes/"
+        }
     }
 }
