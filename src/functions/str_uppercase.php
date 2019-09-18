@@ -11,7 +11,7 @@
  * 
  * @param string $string input string
  * @param string $specification of the method
- * @param string $delimiter delimiter symbol for UCWORD specification
+ * @param string $delimiter delimiter symbol for UCWORDS specification
  * @return string
  */
 
@@ -21,7 +21,8 @@ if (!function_exists('str_uppercase'))
     {
         switch ($specification)
         {
-            case 'UCWORD':
+            case 'UCWORDS':
+                $string = ucwords($string);
                 return implode($delimiter, array_map('ucfirst', explode($delimiter, $string)));
 
             case 'UCFIRST':
